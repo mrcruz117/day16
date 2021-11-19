@@ -1,3 +1,11 @@
-import turtle
+from turtle import Turtle, Screen
 
-timmy = turtle.Turtle()
+timmy = Turtle()
+
+print(timmy)
+timmy.shape('turtle')
+myScreen = Screen()
+print(myScreen.canvheight)
+myScreen.exitonclick()
+
+import prettytable
